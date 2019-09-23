@@ -28,11 +28,17 @@ img {
   display: block;
   margin: 0 auto;
 }
+
 h2 {
   font-size: 35px;
   color: #ff6e40;
   margin: 0px auto 30px;
 }
+
+h3 {
+  color: #ff6e40;
+}
+
 a {
   color: #870000;
 }
@@ -42,9 +48,9 @@ a {
   margin-left: 120px;
 }
 p {
-  color: #ff6e40;
+  color: #c53d13;
   font-style: normal;
-  font-size: 30px;
+  font-size: 20px;
 }
 li {
   color: #c53d13;
