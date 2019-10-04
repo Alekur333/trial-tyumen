@@ -29,6 +29,10 @@ img {
   margin: 0 auto;
 }
 
+nav ul {
+  display: flex;
+}
+
 h2 {
   font-size: 35px;
   color: #ff6e40;
