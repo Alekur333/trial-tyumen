@@ -6,7 +6,7 @@
     <title>Велотриал в Тюмени</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- <link rel="icon" type="image/png" href="favicon.png"> первый вариант иконки -->       
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat|Exo+2&display=swap">
     <meta name="author" content="Alexei Kurochkin">
@@ -15,7 +15,15 @@
   </head>
 
   <body>
-   
+
+   <nav>
+          <ul>
+            <li id="home"> Home </li>
+            <li><a href="menu/pictures.html">Pictures</a></li>
+            <li><a href="menu/map.html">Триал на карте</a></li>
+            <li><a href="menu/social.html">Social</a></li> 
+          </ul>
+    </nav>
     <button>Сменить пользователя</button>
  
     
@@ -24,15 +32,11 @@
         
       <h1 id="main-header">Велотриал в Тюмени</h1>
       <h2>Спорт для ловких и смелых</h2>
-      <nav>
-          <ul>
-            <li id="home"> Home </li>
-            <li><a href="menu/pictures.html">Pictures</a></li>
-            <li><a href="menu/map.html">Триал на карте</a></li>
-            <li><a href="menu/social.html">Social</a></li> 
-          </ul>
-      </nav>
-        <img src="images/oleg3.png" alt="Cool young man jump on a trial bike">
+      
+      <figure>
+        <img src="images/oleg3.png" alt="Cool Oleg Anankin jump on a trial bike">
+        <figcaption>Олег Ананкин делает один из невероятных трюков из своего богатого арсенала</figcaption>
+      </figure>
         
     </header>
     <hr>
@@ -57,7 +61,8 @@
                 height="337" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
+                allowfullscreen
+                title="Олег Ананкин">
         </iframe>
         <div class="ref">  
           <a href="https://youtu.be/Cj6ho1-G6tw" 
@@ -94,7 +99,7 @@
           <u style="text-decoration-style: wavy;">Стрит-триал</u>.  
         </h3>
         <p id="clickfoto" style="margin-bottom: 5px">Нажми на фото ниже</p>
-        <img src="images/nik-1.jpg" alt="Young Nikita" id="nik-1">
+        <img src="images/nik-1.jpg" alt="Young Nikita" id="nik-1" title="Никита Курочкин">
       </article>
       <hr>
       <p style="margin: 50px; font-size: 22px">  <a href="#home">В начало</a> </p>    
