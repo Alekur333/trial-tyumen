@@ -31,6 +31,12 @@ img {
   margin: 0 auto;
 }
 
+.picpage {
+width: 320px;
+display: inline;
+
+}
+
 nav ul {
   display: flex;
 }
