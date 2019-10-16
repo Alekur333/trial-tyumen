@@ -82,3 +82,45 @@ button {
   margin-left: 120px;
   color: #870000;
 }
+
+
+table {
+  
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  color: #c53d13;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235,235,235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245,245,245);
+}
+
+caption {
+  padding: 10px;
+  font-size: 19px;
+  
+}
+
+table td img {
+  width: 170px;
+}
