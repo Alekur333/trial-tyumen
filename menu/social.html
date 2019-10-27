@@ -22,8 +22,43 @@
           <li>Social</li>
         </ul>
       </nav>
-    <h1>Social media</h1>
+    <h1>Интерактив</h1>
 
-    <p>Welcome to my social media page. I am currently antisocial, but will start putting my social media widgets on here when the time is right.</p>
+    <form>
+      <fieldset>
+        <legend>Какой байк Вам нравится?</legend>
+
+        
+        <p>
+          <label for="trial"><b>Триал</b> байк</label>
+          <input type="checkbox" id="trial" name="trial" value="trial_bike">
+        </p>
+
+        <p>
+          <label for="street"><b>Стрит</b> байк</label>
+          <input type="checkbox" id="street" name="street" value="street_bike">
+        </p>
+
+        <p>
+          <label for="gender">Ваш пол</label>
+          <select type="text" id="gender" name="gender">
+            <option value="male">мужской</option>
+            <option value="female">женский</option>            
+          </select>
+        </p>
+
+        <p>
+          <label for="color">Ваш любимый цвет?</label>
+          <input type="color" id="color" name="color">
+        </p>
+       
+        <p><button type="submit">Голосовать</button></p>
+       
+      </fieldset>
+      
+    </form>
+
+    <iframe width="560" height="315" src="https://dengrad.com/app/5"></iframe>
+
   </body>
 </html>
