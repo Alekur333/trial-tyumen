@@ -26,13 +26,13 @@ h1 {
   
   }
 img {
-  width: 800px;
+  /* width: 800px; */
   display: block;
   margin: 0 auto;
 }
 
 .picpage {
-width: 320px;
+/* width: 320px; */
 display: inline;
 
 }
@@ -122,11 +122,11 @@ caption {
 }
 
 table td img {
-  width: 170px;
+  /* width: 170px; */
 }
 
 form {
-  width: 350px;
+  /* width: 350px; */
   text-align: left;
   margin: 20px auto;
 }
